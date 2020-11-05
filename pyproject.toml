@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "flask-scratch"
+version = "0.1.0"
+description = ""
+authors = ["devSeungGwan <yanhis97531@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+torch = "^1.7.0"
+Flask = "^1.1.2"
+numpy = "^1.19.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
